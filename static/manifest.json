@@ -1,0 +1,58 @@
+{
+  "name": "Dua Rehab Center CRM",
+  "short_name": "Dua CRM",
+  "description": "Hospital Management CRM System for Dua Rehab Center",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF6F2",
+  "theme_color": "#5C3A21",
+  "lang": "en",
+  "categories": ["medical", "health", "business"],
+  "icons": [
+    {
+      "src": "/static/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/static/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Dua Rehab Center HMS Dashboard"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Go to Dashboard",
+      "url": "/?view=dashboard",
+      "icons": [{ "src": "/static/favicon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Patients",
+      "short_name": "Patients",
+      "description": "View Patients",
+      "url": "/?view=patients",
+      "icons": [{ "src": "/static/favicon-96x96.png", "sizes": "96x96" }]
+    }
+  ]
+}

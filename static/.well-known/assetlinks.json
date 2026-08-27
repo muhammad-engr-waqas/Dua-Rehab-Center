@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "site.prohms.app",
+    "sha256_cert_fingerprints": [
+      "D7:E3:23:67:6B:EC:76:18:93:25:F9:65:1D:B0:50:66:FC:95:2B:18:74:AA:15:8A:5A:9B:AC:24:9C:02:8E:49"
+    ]
+  }
+}]
