@@ -1,9 +1,8 @@
 {
-  "name": "Dua Rehab Center CRM",
-  "short_name": "Dua CRM",
-  "description": "Hospital Management CRM System for Dua Rehab Center",
+  "name": "Nishan Rehab Center CRM",
+  "short_name": "Nishan CRM",
+  "description": "Hospital Management CRM System for Nishan Rehab Center",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FAF6F2",
@@ -36,7 +35,7 @@
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Dua Rehab Center HMS Dashboard"
+      "label": "Nishan Rehab Center HMS Dashboard"
     }
   ],
   "shortcuts": [

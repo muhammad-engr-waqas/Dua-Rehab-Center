@@ -1,44 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
-  <!-- White rounded background -->
-  <rect width="128" height="128" rx="24" fill="#ffffff"/>
-
-  <!-- Green neural brain (left side) -->
-  <g fill="none" stroke="#2d8a3e" stroke-width="2">
-    <!-- Brain outline -->
-    <path d="M14 52 C14 34 24 22 34 24 C36 16 42 14 48 18 C52 12 58 14 60 20 C68 18 74 26 72 38 C78 42 80 52 76 58 C78 64 74 72 68 74 C66 82 58 86 52 82 C48 86 42 86 38 82 C30 84 22 76 22 66 C14 62 12 56 14 52Z"/>
-    <!-- Stem -->
-    <path d="M38 82 C38 88 40 92 42 94" stroke-width="1.5"/>
-    <!-- Neural dots -->
-    <circle cx="28" cy="38" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <circle cx="40" cy="26" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <circle cx="52" cy="22" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <circle cx="64" cy="32" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <circle cx="72" cy="46" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <circle cx="64" cy="62" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <circle cx="44" cy="70" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <circle cx="26" cy="60" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <circle cx="46" cy="46" r="2.5" fill="#2d8a3e" stroke="none"/>
-    <!-- Connections -->
-    <line x1="28" y1="38" x2="40" y2="26" stroke-width="1.2"/>
-    <line x1="40" y1="26" x2="52" y2="22" stroke-width="1.2"/>
-    <line x1="52" y1="22" x2="64" y2="32" stroke-width="1.2"/>
-    <line x1="64" y1="32" x2="72" y2="46" stroke-width="1.2"/>
-    <line x1="72" y1="46" x2="64" y2="62" stroke-width="1.2"/>
-    <line x1="64" y1="62" x2="44" y2="70" stroke-width="1.2"/>
-    <line x1="44" y1="70" x2="26" y2="60" stroke-width="1.2"/>
-    <line x1="26" y1="60" x2="28" y2="38" stroke-width="1.2"/>
-    <line x1="28" y1="38" x2="46" y2="46" stroke-width="1.2"/>
-    <line x1="46" y1="46" x2="64" y2="32" stroke-width="1.2"/>
-    <line x1="46" y1="46" x2="64" y2="62" stroke-width="1.2"/>
-    <line x1="40" y1="26" x2="46" y2="46" stroke-width="1.2"/>
-  </g>
-
-  <!-- DUA text - bold -->
-  <text x="100" y="56" text-anchor="middle" font-family="Arial Black, Arial" font-weight="900" font-size="34" fill="#5C3A21" letter-spacing="1">DUA</text>
-
-  <!-- Dua Rehab Center -->
-  <text x="100" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="7" fill="#5C3A21" letter-spacing="0.2">DUA REHAB</text>
-
-  <!-- Addiction Treatment line -->
-  <text x="100" y="83" text-anchor="middle" font-family="Arial, sans-serif" font-weight="400" font-size="6" fill="#888888" letter-spacing="0.3">Addiction Treatment &amp; Psychological Services</text>
+  <rect width="128" height="128" rx="28" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d93b9d"/>
+      <stop offset="100%" stop-color="#9a1b6d"/>
+    </linearGradient>
+  </defs>
+  <!-- 5-pointed star -->
+  <polygon points="64,16 73,42 101,42 78,59 87,85 64,68 41,85 50,59 27,42 55,42" fill="url(#starGrad)"/>
+  <!-- NISHAN text -->
+  <text x="64" y="103" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-weight="900" font-size="14" fill="#1e1e1e" letter-spacing="1.2">NISHAN</text>
+  <text x="64" y="117" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-weight="700" font-size="9" fill="#ba2589" letter-spacing="2">REHAB</text>
 </svg>

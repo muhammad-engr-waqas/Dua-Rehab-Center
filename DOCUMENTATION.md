@@ -1,7 +1,7 @@
-# Dua Rehab Center Hospital Management System (HMS)
+# Nishan Rehab Center Hospital Management System (HMS)
 
 ## 1. Introduction
-**Dua Rehab Center HMS** is a robust, full-stack Hospital Management and Customer Relationship Management (CRM) system designed for Dua Rehab Center. It streamlines patient admissions, financial tracking, medical records, and daily administrative operations.
+**Nishan Rehab Center HMS** is a robust, full-stack Hospital Management and Customer Relationship Management (CRM) system designed for Nishan Rehab Center. It streamlines patient admissions, financial tracking, medical records, and daily administrative operations.
 
 The system is built as a highly interactive, single-page application (SPA) focused on usability, data integrity, and role-based access.
 

@@ -84,18 +84,18 @@ self.addEventListener('fetch', (event) => {
 
 // ── Push Notifications ─────────────────────────────────────────────────────────
 self.addEventListener('push', (event) => {
-  let data = { title: 'PRO HMS', body: 'New notification', icon: '/static/logo.png' };
+  let data = { title: 'Nishan Rehab CRM', body: 'New notification', icon: '/static/logo.png' };
   try {
     data = event.data ? event.data.json() : data;
   } catch (e) {}
 
   event.waitUntil(
-    self.registration.showNotification(data.title || 'PRO HMS', {
+    self.registration.showNotification(data.title || 'Nishan Rehab CRM', {
       body: data.body || '',
       icon: data.icon || '/static/logo.png',
       badge: '/static/favicon-96x96.png',
       vibrate: [200, 100, 200],
-      tag: data.tag || 'pro-hms-notif',
+      tag: data.tag || 'nishan-rehab-notif',
       renotify: true,
       data: { url: data.url || '/' },
     })

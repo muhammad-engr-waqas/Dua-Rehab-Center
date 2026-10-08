@@ -1,6 +1,6 @@
-# Dua Rehab Center HMS
+# Nishan Rehab Center HMS
 
-This is a comprehensive Hospital Management & CRM system designed for Dua Rehab Center.
+This is a comprehensive Hospital Management & CRM system designed for Nishan Rehab Center.
 
 ## Tech Stack
 - **Backend:** Python (Flask, Flask-PyMongo, Flask-SocketIO)
@@ -32,4 +32,4 @@ This is a comprehensive Hospital Management & CRM system designed for Dua Rehab 
    ```
 
 ## License
-Proprietary - Developed for Dua Rehab Center.
+Proprietary - Developed for Nishan Rehab Center.
